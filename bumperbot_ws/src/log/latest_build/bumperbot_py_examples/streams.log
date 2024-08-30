@@ -1,0 +1,36 @@
+[0.337s] Invoking command in '/home/wapush/bumperbot_ws/src/bumperbot_py_examples': PYTHONPATH=/home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bumperbot_py_examples build --build-base /home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/build install --record /home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[0.457s] running egg_info
+[0.458s] creating ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info
+[0.458s] writing ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[0.458s] writing dependency_links to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[0.458s] writing entry points to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[0.458s] writing requirements to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[0.458s] writing top-level names to ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[0.458s] writing manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.459s] reading manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.460s] writing manifest file '../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.460s] running build
+[0.460s] running build_py
+[0.460s] creating /home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/build
+[0.460s] creating /home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/build/lib
+[0.460s] creating /home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.460s] copying bumperbot_py_examples/__init__.py -> /home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.460s] copying bumperbot_py_examples/simple_publisher.py -> /home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.460s] running install
+[0.461s] running install_lib
+[0.461s] creating /home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.461s] copying /home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.461s] copying /home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_publisher.py -> /home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.461s] byte-compiling /home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-310.pyc
+[0.462s] byte-compiling /home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[0.462s] running install_data
+[0.462s] creating /home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index
+[0.462s] creating /home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index/resource_index
+[0.462s] creating /home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[0.463s] copying resource/bumperbot_py_examples -> /home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[0.463s] copying package.xml -> /home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/share/bumperbot_py_examples
+[0.463s] running install_egg_info
+[0.464s] Copying ../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[0.464s] running install_scripts
+[0.477s] writing list of installed files to '/home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/install.log'
+[0.492s] Invoked command in '/home/wapush/bumperbot_ws/src/bumperbot_py_examples' returned '0': PYTHONPATH=/home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wapush/bumperbot_ws/src/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bumperbot_py_examples build --build-base /home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/build install --record /home/wapush/bumperbot_ws/src/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
