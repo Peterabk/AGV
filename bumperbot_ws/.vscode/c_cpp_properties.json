@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller/include/**",
+                "/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/src/bumperbot_firmware/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

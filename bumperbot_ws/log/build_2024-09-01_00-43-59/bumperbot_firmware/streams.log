@@ -1,0 +1,66 @@
+[0.022s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware -- -j20 -l20
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_firmware[0m
+[0.076s] [ 33%] Built target simple_serial_transmitter
+[0.079s] [ 66%] Built target simple_serial_receiver
+[0.079s] [ 66%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.080s] [ 83%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[0.217s] running egg_info
+[0.218s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.219s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.219s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[0.221s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.221s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.244s] [ 83%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[1.778s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:[m[K In member function ‘[01m[Kvirtual bumperbot_interface::CallbackReturn bumperbot_interface::BumperbotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[1.780s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:79:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.780s]    79 |     CallbackReturn BumperbotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+[1.780s]       |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.780s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:[m[K In member function ‘[01m[Kvirtual bumperbot_interface::CallbackReturn bumperbot_interface::BumperbotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[1.780s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:104:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.780s]   104 |     CallbackReturn BumperbotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+[1.780s]       |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.780s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type bumperbot_interface::BumperbotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.780s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:125:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.781s]   125 |     hardware_interface::return_type BumperbotInterface::read([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period){
+[1.781s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.781s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:125:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.781s]   125 |     hardware_interface::return_type BumperbotInterface::read(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K){
+[1.781s]       |                                                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.781s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type bumperbot_interface::BumperbotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.781s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:156:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.782s]   156 |     hardware_interface::return_type BumperbotInterface::write([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period){
+[1.782s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.782s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:156:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.782s]   156 |     hardware_interface::return_type BumperbotInterface::write(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K){
+[1.782s]       |                                                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.793s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[1.793s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.793s]                  from [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:190[m[K:
+[1.793s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:[m[K At global scope:
+[1.793s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:191:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kbumperbot_firmware[m[K’ does not name a type; did you mean ‘[01m[Kbumperbot_firmware_EXPORTS[m[K’?
+[1.793s]   191 | PLUGINLIB_EXPORT_CLASS([01;31m[Kbumperbot_firmware[m[K::BumperbotInterface, hardware_interface::SystemInterface)
+[1.793s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.799s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[1.799s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:191:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[1.799s]   191 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(bumperbot_firmware::BumperbotInterface, hardware_interface::SystemInterface)
+[1.799s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.799s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:191:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [39], const char [36])[m[K’
+[1.799s]   191 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(bumperbot_firmware::BumperbotInterface, hardware_interface::SystemInterface)
+[1.799s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.799s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[1.799s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.799s]                  from [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:190[m[K:
+[1.799s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+[1.799s]   210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[1.799s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.799s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.799s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[1.799s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[1.799s]                  from [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:190[m[K:
+[1.799s] [01m[K/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:191:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.799s]   191 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(bumperbot_firmware::BumperbotInterface, hardware_interface::SystemInterface)
+[1.799s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.135s] gmake[2]: *** [CMakeFiles/bumperbot_firmware.dir/build.make:76: CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o] Error 1
+[2.135s] gmake[1]: *** [CMakeFiles/Makefile2:196: CMakeFiles/bumperbot_firmware.dir/all] Error 2
+[2.135s] gmake: *** [Makefile:146: all] Error 2
+[2.137s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware -- -j20 -l20

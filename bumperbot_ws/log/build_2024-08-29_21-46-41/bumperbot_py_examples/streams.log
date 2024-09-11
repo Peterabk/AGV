@@ -1,0 +1,40 @@
+[0.477s] Invoking command in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_py_examples': PYTHONPATH=/home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[0.597s] running egg_info
+[0.598s] creating ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info
+[0.598s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[0.598s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[0.598s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[0.598s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[0.598s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[0.599s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.599s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.600s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.600s] running build
+[0.600s] running build_py
+[0.600s] creating /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build
+[0.601s] creating /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build/lib
+[0.601s] creating /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.601s] copying bumperbot_py_examples/__init__.py -> /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.601s] copying bumperbot_py_examples/simple_publisher.py -> /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.601s] copying bumperbot_py_examples/turtlesim_kinematics.py -> /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.601s] running install
+[0.601s] running install_lib
+[0.602s] creating /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.602s] copying /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.602s] copying /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_publisher.py -> /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.602s] copying /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/turtlesim_kinematics.py -> /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.603s] byte-compiling /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-310.pyc
+[0.603s] byte-compiling /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[0.603s] byte-compiling /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/turtlesim_kinematics.py to turtlesim_kinematics.cpython-310.pyc
+[0.604s] running install_data
+[0.604s] creating /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/ament_index
+[0.604s] creating /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index
+[0.604s] creating /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[0.604s] copying resource/bumperbot_py_examples -> /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[0.604s] copying package.xml -> /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[0.604s] running install_egg_info
+[0.605s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[0.607s] running install_scripts
+[0.620s] Installing simple_turtulesim_kinematics script to /home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.620s] writing list of installed files to '/home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[0.635s] Invoked command in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_py_examples' returned '0': PYTHONPATH=/home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

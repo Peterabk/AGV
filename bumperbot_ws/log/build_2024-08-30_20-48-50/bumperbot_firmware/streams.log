@@ -1,0 +1,16 @@
+[0.023s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware -- -j20 -l20
+[0.044s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.152s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.194s] -- Configuring incomplete, errors occurred!
+[0.195s] See also "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/CMakeOutput.log".
+[0.195s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[0.195s]   ament_python_install_package() the Python package folder
+[0.196s]   '/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/$(PROJECT_NAME)'
+[0.196s]   doesn't contain an '__init__.py' file
+[0.196s] Call Stack (most recent call first):
+[0.196s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.197s]   CMakeLists.txt:16 (ament_python_install_package)
+[0.197s] 
+[0.198s] [0m
+[0.198s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.206s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware -- -j20 -l20

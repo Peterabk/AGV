@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/$(PROJECT_NAME)/simple_serial_transmitter.py":
+  No such file or directory.
+
+[0m

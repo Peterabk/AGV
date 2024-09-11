@@ -1,0 +1,9 @@
+[0.022s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware -- -j20 -l20
+[0.049s] [31mCMake Error at CMakeLists.txt:21:
+[0.049s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.049s] 
+[0.049s] [0m
+[0.049s] -- Configuring incomplete, errors occurred!
+[0.049s] See also "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/CMakeOutput.log".
+[0.053s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.160s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware -- -j20 -l20

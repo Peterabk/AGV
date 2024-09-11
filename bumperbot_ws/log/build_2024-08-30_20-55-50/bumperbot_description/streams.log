@@ -1,0 +1,2 @@
+[0.019s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_description -- -j20 -l20
+[0.166s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_description -- -j20 -l20

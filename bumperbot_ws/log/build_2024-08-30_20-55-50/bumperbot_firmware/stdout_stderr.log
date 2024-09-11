@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:21:
+  Parse error.  Expected a command name, got right paren with text ")".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1
