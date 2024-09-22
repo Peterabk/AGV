@@ -2,7 +2,7 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch.actions import DeclareLaunchArgument, SetEnvironmentVariable, IncludeLaunchDescription
 from launch_ros.parameter_descriptions import ParameterValue
-from launch.substitutions import Command, LaunchConfiguration
+from launch.substitutions import Command, LaunchConfiguration, PathJoinSubstitution, PythonExpression
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 from ament_index_python.packages import get_package_share_directory, get_package_prefix
@@ -26,6 +26,19 @@ def generate_launch_description():
         description= "Absolute path to robot URDF file"
     )
 
+    world_name_arg = DeclareLaunchArgument(
+        name="world_name",
+        default_value="empty"
+    )
+
+    world_path = PathJoinSubstitution([
+        bumperbot_description,
+        "worlds",
+        PythonExpression( expression=["'",LaunchConfiguration("world_name"), "'", " + '.world'"])
+    ]
+    )
+
+
     #The command cme from the class launch.substitutions it runs a normal command.
     # in our case the command is to transorm the xacro file into a normal urdf file to be read by the robot_state_publisher
     #The "model" is the saame model_arg we created before with it's values passed to the command to be ran
@@ -34,15 +47,19 @@ def generate_launch_description():
     robot_state_publisher = Node(
         package= "robot_state_publisher",
         executable="robot_state_publisher",
-        parameters=[{"robot_description": robot_description}]
+        parameters=[{"robot_description": robot_description, "use_sim_time":True}]
     )
 
     #start the gazebo server
     start_gazebo_server = IncludeLaunchDescription(PythonLaunchDescriptionSource(os.path.join(
         get_package_share_directory("gazebo_ros"),
         "launch",
-        "gzserver.launch.py"
-    )))
+        "gzserver.launch.py")
+        ),
+        launch_arguments={
+            "world":world_path
+        }.items(),
+    )
 
     #start the gazebo client
     start_gzebo_client = IncludeLaunchDescription(PythonLaunchDescriptionSource(os.path.join(
@@ -62,6 +79,7 @@ def generate_launch_description():
     return LaunchDescription([
         env_varibale,
         model_arg,
+        world_name_arg,
         robot_state_publisher,
         start_gazebo_server,
         start_gzebo_client,

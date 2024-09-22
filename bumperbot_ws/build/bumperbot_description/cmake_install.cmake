@@ -49,6 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/wapush/AGV/bumperbot_ws/src/bumperbot_description/launch"
     "/home/wapush/AGV/bumperbot_ws/src/bumperbot_description/rviz"
     "/home/wapush/AGV/bumperbot_ws/src/bumperbot_description/models"
+    "/home/wapush/AGV/bumperbot_ws/src/bumperbot_description/worlds"
     )
 endif()
 

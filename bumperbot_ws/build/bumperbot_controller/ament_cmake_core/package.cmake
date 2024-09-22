@@ -5,7 +5,7 @@ set(bumperbot_controller_BUILD_DEPENDS "rcly" "std_msgs" "geometry_msgs" "rclcpp
 set(bumperbot_controller_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(bumperbot_controller_BUILD_EXPORT_DEPENDS "rcly" "std_msgs" "geometry_msgs" "rclcpp" "eigen" "sensor_msgs" "nav_msgs" "tf2" "tf2_ros")
 set(bumperbot_controller_BUILDTOOL_EXPORT_DEPENDS )
-set(bumperbot_controller_EXEC_DEPENDS "ros2launch" "controller_manager" "tf_transformations" "rcly" "std_msgs" "geometry_msgs" "rclcpp" "eigen" "sensor_msgs" "nav_msgs" "tf2" "tf2_ros")
+set(bumperbot_controller_EXEC_DEPENDS "ros2launch" "controller_manager" "tf_transformations" "twist_mux" "rcly" "std_msgs" "geometry_msgs" "rclcpp" "eigen" "sensor_msgs" "nav_msgs" "tf2" "tf2_ros")
 set(bumperbot_controller_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(bumperbot_controller_GROUP_DEPENDS )
 set(bumperbot_controller_MEMBER_OF_GROUPS )

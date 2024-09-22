@@ -64,4 +64,40 @@
         </plugin>
     </gazebo>
 
+    <!-- Lidar Sensor-->
+    <gazebo reference="laser_link">
+        <sensor name="lidar" type="ray">
+            <always_on>true</always_on>
+            <visualize>true</visualize>
+            <update_rate>5</update_rate> <!-- in HZ-->
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>360</samples>
+                        <resolution>1.0</resolution>
+                        <main_angle>0.0</main_angle>
+                        <max_angle>6.28</max_angle> <!-- in radiants-->
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.12</min> <!-- in m-->
+                    <max>12.0</max> <!-- in m-->
+                    <resolution>0.02</resolution> <!-- in m-->
+                </range>
+                <noise>
+                    <type>gaussian</type>
+                    <mean>0.0</mean>
+                    <stddev>0.01</stddev>
+                </noise>
+            </ray>
+            <plugin name="scan" filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                    <remapping>~/out:=scan</remapping>
+                </ros>
+                <output_type>sensor_msgs/LaserScan</output_type>
+                <frame_name>laser_link</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+
 </robot>

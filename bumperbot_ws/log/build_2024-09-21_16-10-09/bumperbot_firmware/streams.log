@@ -1,0 +1,12 @@
+[0.022s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware -- -j20 -l20
+[0.160s] [ 33%] Built target bumperbot_firmware
+[0.160s] [ 66%] Built target simple_serial_transmitter
+[0.160s] [ 66%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.160s] [100%] Built target simple_serial_receiver
+[0.181s] running egg_info
+[0.182s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.182s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.182s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[0.183s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.184s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.254s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg

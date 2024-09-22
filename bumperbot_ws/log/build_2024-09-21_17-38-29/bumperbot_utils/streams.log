@@ -1,0 +1,70 @@
+[0.176s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils -- -j20 -l20
+[0.197s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.424s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.424s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.530s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.533s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.540s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.618s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.303s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.368s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.398s] -- Found twist_mux_msgs: 3.0.1 (/opt/ros/humble/share/twist_mux_msgs/cmake)
+[7.478s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.528s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.528s] -- Configured cppcheck include dirs: 
+[7.528s] -- Configured cppcheck exclude dirs and/or files: 
+[7.529s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.529s] -- Added test 'lint_cmake' to check CMake code style
+[7.530s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.530s] -- Added test 'uncrustify' to check C / C++ code style
+[7.530s] -- Configured uncrustify additional arguments: 
+[7.531s] -- Added test 'xmllint' to check XML markup files
+[7.532s] -- Configuring done
+[7.545s] -- Generating done
+[7.546s] -- Build files have been written to: /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils
+[7.563s] [35m[1mConsolidate compiler generated dependencies of target safety_stop[0m
+[7.572s] [100%] Built target safety_stop
+[7.574s] [100%] Built target ament_cmake_python_copy_bumperbot_utils
+[7.691s] running egg_info
+[7.691s] writing bumperbot_utils.egg-info/PKG-INFO
+[7.691s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[7.691s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[7.693s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[7.694s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[7.710s] [100%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[7.717s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils -- -j20 -l20
+[7.734s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils
+[7.739s] -- Install configuration: ""
+[7.739s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[7.739s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[7.740s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[7.740s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+[7.740s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[7.740s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[7.741s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.741s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.741s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils
+[7.741s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/safety_stop.py
+[7.741s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/__init__.py
+[7.766s] Listing '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils'...
+[7.766s] Compiling '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/safety_stop.py'...
+[7.770s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[7.770s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[7.770s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[7.770s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[7.770s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[7.770s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[7.770s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[7.770s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[7.770s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[7.770s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[7.770s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[7.770s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[7.770s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[7.770s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[7.770s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[7.770s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[7.772s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils
