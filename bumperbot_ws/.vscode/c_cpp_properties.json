@@ -13,7 +13,8 @@
                 "/usr/include/**",
                 "${workspaceFolder}/src/bumperbot_firmware/include",
                 "/opt/ros/humble/include/rclcpp",
-                "/opt/ros/humble/include/sensor_msgs"
+                "/opt/ros/humble/include/sensor_msgs",
+                "/opt/ros/humble/include/rcl"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

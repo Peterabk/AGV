@@ -1,0 +1,42 @@
+[0.032s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wapush/AGV/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization
+[0.262s] -- The C compiler identification is GNU 11.4.0
+[0.754s] -- The CXX compiler identification is GNU 11.4.0
+[1.119s] -- Detecting C compiler ABI info
+[1.254s] -- Detecting C compiler ABI info - done
+[1.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.259s] -- Detecting C compile features
+[1.259s] -- Detecting C compile features - done
+[1.262s] -- Detecting CXX compiler ABI info
+[1.402s] -- Detecting CXX compiler ABI info - done
+[1.409s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.409s] -- Detecting CXX compile features
+[1.410s] -- Detecting CXX compile features - done
+[1.423s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.543s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.636s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.703s] -- Added test 'lint_cmake' to check CMake code style
+[1.705s] -- Added test 'xmllint' to check XML markup files
+[1.707s] -- Configuring done
+[1.711s] -- Generating done
+[1.712s] -- Build files have been written to: /home/wapush/AGV/bumperbot_ws/build/bumperbot_localization
+[1.717s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wapush/AGV/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization
+[1.717s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_localization -- -j20 -l20
+[1.744s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_localization -- -j20 -l20
+[1.759s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_localization
+[1.764s] -- Install configuration: ""
+[1.765s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[1.766s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[1.767s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[1.768s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[1.768s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[1.768s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[1.768s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[1.768s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[1.769s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[1.769s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[1.769s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[1.769s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[1.770s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[1.770s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[1.771s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[1.773s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_localization
