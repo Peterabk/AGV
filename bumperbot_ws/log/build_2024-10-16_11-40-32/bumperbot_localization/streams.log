@@ -1,0 +1,94 @@
+[0.046s] Invoking command in '/root/AGV/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/AGV/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/root/AGV/bumperbot_ws/install/bumperbot_localization
+[0.410s] -- The C compiler identification is GNU 11.4.0
+[0.620s] -- The CXX compiler identification is GNU 11.4.0
+[0.888s] -- Detecting C compiler ABI info
+[1.020s] -- Detecting C compiler ABI info - done
+[1.028s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.029s] -- Detecting C compile features
+[1.032s] -- Detecting C compile features - done
+[1.041s] -- Detecting CXX compiler ABI info
+[1.222s] -- Detecting CXX compiler ABI info - done
+[1.222s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.222s] -- Detecting CXX compile features
+[1.222s] -- Detecting CXX compile features - done
+[1.230s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.480s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.692s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.898s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.902s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.926s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.955s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.988s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.081s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.085s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.546s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.019s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.641s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.654s] -- Looking for pthread.h
+[3.766s] -- Looking for pthread.h - found
+[3.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.867s] -- Found Threads: TRUE  
+[3.940s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[3.942s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.971s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.129s] -- Configuring done
+[4.148s] -- Generating done
+[4.150s] -- Build files have been written to: /root/AGV/bumperbot_ws/build/bumperbot_localization
+[4.160s] Invoked command in '/root/AGV/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/AGV/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/root/AGV/bumperbot_ws/install/bumperbot_localization
+[4.163s] Invoking command in '/root/AGV/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/bumperbot_ws/build/bumperbot_localization -- -j8 -l8
+[4.203s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[4.212s] [ 50%] Built target ament_cmake_python_copy_bumperbot_localization
+[4.507s] running egg_info
+[4.508s] creating bumperbot_localization.egg-info
+[4.509s] writing bumperbot_localization.egg-info/PKG-INFO
+[4.509s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[4.509s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[4.510s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[4.513s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[4.514s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[4.574s] [ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[31.028s] [100%] [32m[1mLinking CXX executable imu_republisher[0m
+[31.757s] [100%] Built target imu_republisher
+[31.842s] Invoked command in '/root/AGV/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/bumperbot_ws/build/bumperbot_localization -- -j8 -l8
+[31.924s] Invoking command in '/root/AGV/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/AGV/bumperbot_ws/build/bumperbot_localization
+[31.935s] -- Install configuration: ""
+[31.939s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[31.940s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[31.940s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[31.949s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[31.949s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[31.949s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[31.949s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[31.950s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization
+[31.950s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py
+[31.950s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py
+[32.042s] Listing '/root/AGV/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization'...
+[32.042s] Compiling '/root/AGV/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py'...
+[32.042s] Compiling '/root/AGV/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py'...
+[32.050s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/include/include
+[32.051s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[32.052s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[32.054s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[32.059s] -- Set runtime path of "/root/AGV/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher" to ""
+[32.059s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+[32.059s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[32.060s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config
+[32.060s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[32.060s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[32.062s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[32.063s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[32.064s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[32.065s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[32.065s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[32.065s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[32.066s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[32.066s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[32.066s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[32.066s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[32.067s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[32.068s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[32.069s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[32.069s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[32.069s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[32.081s] Invoked command in '/root/AGV/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/AGV/bumperbot_ws/build/bumperbot_localization

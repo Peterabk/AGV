@@ -1,8 +1,8 @@
-# Install script for directory: /home/wapush/AGV/bumperbot_ws/src/bumperbot_mapping
+# Install script for directory: /root/AGV/bumperbot_ws/src/bumperbot_mapping
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping")
+  set(CMAKE_INSTALL_PREFIX "/root/AGV/bumperbot_ws/install/bumperbot_mapping")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,7 +55,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping/environment" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping/environment" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,42 +63,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping/environment" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping/environment" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_index/share/ament_index/resource_index/packages/bumperbot_mapping")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_index/share/ament_index/resource_index/packages/bumperbot_mapping")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping/cmake" TYPE FILE FILES
-    "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_core/bumperbot_mappingConfig.cmake"
-    "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_core/bumperbot_mappingConfig-version.cmake"
+    "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_core/bumperbot_mappingConfig.cmake"
+    "/root/AGV/bumperbot_ws/build/bumperbot_mapping/ament_cmake_core/bumperbot_mappingConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/src/bumperbot_mapping/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_mapping" TYPE FILE FILES "/root/AGV/bumperbot_ws/src/bumperbot_mapping/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -109,5 +109,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/AGV/bumperbot_ws/build/bumperbot_mapping/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

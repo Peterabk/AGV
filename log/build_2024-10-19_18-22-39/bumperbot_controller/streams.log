@@ -1,0 +1,46 @@
+[0.047s] Invoking command in '/root/AGV/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/build/bumperbot_controller -- -j8 -l8
+[0.387s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.391s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.820s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.821s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.821s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.838s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.839s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.994s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.072s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[3.074s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.092s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.109s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.125s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.360s] -- Configuring done
+[3.371s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[3.371s]   Cannot find source file:
+[3.371s] 
+[3.371s]     src/simple_controller.cpp
+[3.371s] 
+[3.371s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.371s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.371s] 
+[3.371s] [0m
+[3.374s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[3.374s]   Cannot find source file:
+[3.374s] 
+[3.374s]     src/noisy_controller.cpp
+[3.374s] 
+[3.374s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.374s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.374s] 
+[3.374s] [0m
+[3.383s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[3.383s]   No SOURCES given to target: simple_controller
+[3.383s] 
+[3.383s] [0m
+[3.383s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[3.383s]   No SOURCES given to target: noisy_controller
+[3.383s] 
+[3.383s] [0m
+[3.383s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.391s] gmake: *** [Makefile:295: cmake_check_build_system] Error 1
+[3.393s] Invoked command in '/root/AGV/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/build/bumperbot_controller -- -j8 -l8

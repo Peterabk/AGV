@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware
+CMAKE_SOURCE_DIR = /root/AGV/bumperbot_ws/src/bumperbot_firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware
+CMAKE_BINARY_DIR = /root/AGV/bumperbot_ws/build/bumperbot_firmware
 
 # Utility rule file for ament_cmake_python_build_bumperbot_firmware_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/compiler_
 include CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg:
-	cd /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_python/bumperbot_firmware && /usr/bin/python3 setup.py egg_info
+	cd /root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_python/bumperbot_firmware && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_bumperbot_firmware_egg: CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg
 ament_cmake_python_build_bumperbot_firmware_egg: CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/depend:
-	cd /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware /home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/AGV/bumperbot_ws/build/bumperbot_firmware && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/AGV/bumperbot_ws/src/bumperbot_firmware /root/AGV/bumperbot_ws/src/bumperbot_firmware /root/AGV/bumperbot_ws/build/bumperbot_firmware /root/AGV/bumperbot_ws/build/bumperbot_firmware /root/AGV/bumperbot_ws/build/bumperbot_firmware/CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/depend
 

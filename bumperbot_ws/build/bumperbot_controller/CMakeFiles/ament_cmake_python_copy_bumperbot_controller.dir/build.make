@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wapush/AGV/bumperbot_ws/src/bumperbot_controller
+CMAKE_SOURCE_DIR = /root/AGV/bumperbot_ws/src/bumperbot_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller
+CMAKE_BINARY_DIR = /root/AGV/bumperbot_ws/build/bumperbot_controller
 
 # Utility rule file for ament_cmake_python_copy_bumperbot_controller.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir/compiler_dep
 include CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_bumperbot_controller:
-	/usr/bin/cmake -E copy_directory /home/wapush/AGV/bumperbot_ws/src/bumperbot_controller/bumperbot_controller /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller
+	/usr/bin/cmake -E copy_directory /root/AGV/bumperbot_ws/src/bumperbot_controller/bumperbot_controller /root/AGV/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller
 
 ament_cmake_python_copy_bumperbot_controller: CMakeFiles/ament_cmake_python_copy_bumperbot_controller
 ament_cmake_python_copy_bumperbot_controller: CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir/depend:
-	cd /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wapush/AGV/bumperbot_ws/src/bumperbot_controller /home/wapush/AGV/bumperbot_ws/src/bumperbot_controller /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/AGV/bumperbot_ws/build/bumperbot_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/AGV/bumperbot_ws/src/bumperbot_controller /root/AGV/bumperbot_ws/src/bumperbot_controller /root/AGV/bumperbot_ws/build/bumperbot_controller /root/AGV/bumperbot_ws/build/bumperbot_controller /root/AGV/bumperbot_ws/build/bumperbot_controller/CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_bumperbot_controller.dir/depend
 

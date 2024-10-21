@@ -1,8 +1,8 @@
-# Install script for directory: /home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware
+# Install script for directory: /root/AGV/bumperbot_ws/src/bumperbot_firmware
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware")
+  set(CMAKE_INSTALL_PREFIX "/root/AGV/bumperbot_ws/install/bumperbot_firmware")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,31 +43,31 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_python/bumperbot_firmware/bumperbot_firmware.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_python/bumperbot_firmware/bumperbot_firmware.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/bumperbot_firmware" TYPE DIRECTORY FILES "/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/bumperbot_firmware/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/bumperbot_firmware" TYPE DIRECTORY FILES "/root/AGV/bumperbot_ws/src/bumperbot_firmware/bumperbot_firmware/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware"
+        "/root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware"
       )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/bumperbot_interface.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/root/AGV/bumperbot_ws/src/bumperbot_firmware/bumperbot_interface.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -77,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libbumperbot_firmware.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/libbumperbot_firmware.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/libbumperbot_firmware.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libbumperbot_firmware.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libbumperbot_firmware.so")
     file(RPATH_CHANGE
@@ -94,7 +94,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/include")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/root/AGV/bumperbot_ws/src/bumperbot_firmware/include")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -104,7 +104,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_firmware/simple_serial_transmitter"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_firmware" TYPE EXECUTABLE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/simple_serial_transmitter")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_firmware" TYPE EXECUTABLE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/simple_serial_transmitter")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_firmware/simple_serial_transmitter" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_firmware/simple_serial_transmitter")
     file(RPATH_CHANGE
@@ -124,7 +124,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_firmware/simple_serial_receiver"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_firmware" TYPE EXECUTABLE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/simple_serial_receiver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_firmware" TYPE EXECUTABLE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/simple_serial_receiver")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_firmware/simple_serial_receiver" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_firmware/simple_serial_receiver")
     file(RPATH_CHANGE
@@ -139,29 +139,29 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_firmware" TYPE PROGRAM FILES
-    "/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/bumperbot_firmware/simple_serial_transmitter.py"
-    "/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/bumperbot_firmware/simple_serial_receiver.py"
+    "/root/AGV/bumperbot_ws/src/bumperbot_firmware/bumperbot_firmware/simple_serial_transmitter.py"
+    "/root/AGV/bumperbot_ws/src/bumperbot_firmware/bumperbot_firmware/simple_serial_receiver.py"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE DIRECTORY FILES "/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE DIRECTORY FILES "/root/AGV/bumperbot_ws/src/bumperbot_firmware/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/usr/lib/python3/dist-packages/ament_package/template/environment_hook/library_path.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -169,7 +169,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -177,58 +177,58 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/environment" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_index/share/ament_index/resource_index/packages/bumperbot_firmware")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_index/share/ament_index/resource_index/packages/bumperbot_firmware")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/hardware_interface__pluginlib__plugin" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/hardware_interface__pluginlib__plugin" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/cmake" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/cmake" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/cmake" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/cmake" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/cmake" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/cmake" TYPE FILE FILES "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware/cmake" TYPE FILE FILES
-    "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_core/bumperbot_firmwareConfig.cmake"
-    "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_core/bumperbot_firmwareConfig-version.cmake"
+    "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_core/bumperbot_firmwareConfig.cmake"
+    "/root/AGV/bumperbot_ws/build/bumperbot_firmware/ament_cmake_core/bumperbot_firmwareConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_firmware" TYPE FILE FILES "/root/AGV/bumperbot_ws/src/bumperbot_firmware/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -239,5 +239,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/AGV/bumperbot_ws/build/bumperbot_firmware/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

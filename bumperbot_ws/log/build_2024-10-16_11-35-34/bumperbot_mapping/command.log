@@ -1,0 +1,2 @@
+Invoking command in '/root/AGV/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/bumperbot_ws/build/bumperbot_mapping -- -j8 -l8
+Invoked command in '/root/AGV/bumperbot_ws/build/bumperbot_mapping' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/bumperbot_ws/build/bumperbot_mapping -- -j8 -l8

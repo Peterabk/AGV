@@ -1,0 +1,21 @@
+[0.867s] Invoking command in '/root/AGV/bumperbot_ws/src/bumperbot_py_examples': PYTHONPATH=/root/AGV/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/AGV/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/bumperbot_py_examples build --build-base /root/AGV/build/bumperbot_py_examples/build install --record /root/AGV/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[1.099s] running egg_info
+[1.100s] writing ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[1.100s] writing dependency_links to ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[1.101s] writing entry points to ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[1.101s] writing requirements to ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[1.101s] writing top-level names to ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[1.103s] reading manifest file '../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.103s] writing manifest file '../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.103s] running build
+[1.103s] running build_py
+[1.104s] running install
+[1.104s] running install_lib
+[1.105s] running install_data
+[1.105s] running install_egg_info
+[1.106s] removing '/root/AGV/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[1.107s] Copying ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /root/AGV/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[1.107s] running install_scripts
+[1.127s] Installing simple_turtulesim_kinematics script to /root/AGV/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.128s] writing list of installed files to '/root/AGV/build/bumperbot_py_examples/install.log'
+[1.165s] Invoked command in '/root/AGV/bumperbot_ws/src/bumperbot_py_examples' returned '0': PYTHONPATH=/root/AGV/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/AGV/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/bumperbot_py_examples build --build-base /root/AGV/build/bumperbot_py_examples/build install --record /root/AGV/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

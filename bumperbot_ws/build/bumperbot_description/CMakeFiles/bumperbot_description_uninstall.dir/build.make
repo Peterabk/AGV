@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wapush/AGV/bumperbot_ws/src/bumperbot_description
+CMAKE_SOURCE_DIR = /root/AGV/bumperbot_ws/src/bumperbot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wapush/AGV/bumperbot_ws/build/bumperbot_description
+CMAKE_BINARY_DIR = /root/AGV/bumperbot_ws/build/bumperbot_description
 
 # Utility rule file for bumperbot_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/bumperbot_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/bumperbot_description_uninstall.dir/progress.make
 
 CMakeFiles/bumperbot_description_uninstall:
-	/usr/bin/cmake -P /home/wapush/AGV/bumperbot_ws/build/bumperbot_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/AGV/bumperbot_ws/build/bumperbot_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 bumperbot_description_uninstall: CMakeFiles/bumperbot_description_uninstall
 bumperbot_description_uninstall: CMakeFiles/bumperbot_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/bumperbot_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/bumperbot_description_uninstall.dir/clean
 
 CMakeFiles/bumperbot_description_uninstall.dir/depend:
-	cd /home/wapush/AGV/bumperbot_ws/build/bumperbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wapush/AGV/bumperbot_ws/src/bumperbot_description /home/wapush/AGV/bumperbot_ws/src/bumperbot_description /home/wapush/AGV/bumperbot_ws/build/bumperbot_description /home/wapush/AGV/bumperbot_ws/build/bumperbot_description /home/wapush/AGV/bumperbot_ws/build/bumperbot_description/CMakeFiles/bumperbot_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/AGV/bumperbot_ws/build/bumperbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/AGV/bumperbot_ws/src/bumperbot_description /root/AGV/bumperbot_ws/src/bumperbot_description /root/AGV/bumperbot_ws/build/bumperbot_description /root/AGV/bumperbot_ws/build/bumperbot_description /root/AGV/bumperbot_ws/build/bumperbot_description/CMakeFiles/bumperbot_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bumperbot_description_uninstall.dir/depend
 

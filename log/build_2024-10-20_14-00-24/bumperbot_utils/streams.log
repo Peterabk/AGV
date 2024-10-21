@@ -1,0 +1,42 @@
+[0.564s] Invoking command in '/root/AGV/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/build/bumperbot_utils -- -j8 -l8
+[0.703s] [100%] Built target safety_stop
+[0.881s] [100%] Built target ament_cmake_python_copy_bumperbot_utils
+[1.178s] running egg_info
+[1.178s] writing bumperbot_utils.egg-info/PKG-INFO
+[1.178s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[1.178s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[1.184s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.186s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.308s] [100%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[1.353s] Invoked command in '/root/AGV/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/build/bumperbot_utils -- -j8 -l8
+[1.394s] Invoking command in '/root/AGV/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/AGV/build/bumperbot_utils
+[1.402s] -- Install configuration: ""
+[1.403s] -- Up-to-date: /root/AGV/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[1.403s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[1.403s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[1.403s] -- Up-to-date: /root/AGV/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+[1.403s] -- Installing: /root/AGV/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[1.403s] -- Installing: /root/AGV/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[1.406s] -- Installing: /root/AGV/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.406s] -- Installing: /root/AGV/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.406s] -- Up-to-date: /root/AGV/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils
+[1.406s] -- Up-to-date: /root/AGV/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/__init__.py
+[1.406s] -- Up-to-date: /root/AGV/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/safety_stop.py
+[1.461s] Listing '/root/AGV/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils'...
+[1.465s] -- Up-to-date: /root/AGV/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[1.465s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[1.465s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[1.466s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[1.466s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[1.466s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[1.466s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[1.466s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[1.466s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[1.466s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[1.466s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[1.466s] -- Installing: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[1.466s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[1.466s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[1.466s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[1.467s] -- Up-to-date: /root/AGV/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[1.467s] Invoked command in '/root/AGV/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/AGV/build/bumperbot_utils

@@ -1,0 +1,9 @@
+/root/AGV/build/bumperbot_mapping/CMakeFiles/uninstall.dir
+/root/AGV/build/bumperbot_mapping/CMakeFiles/bumperbot_mapping_uninstall.dir
+/root/AGV/build/bumperbot_mapping/CMakeFiles/test.dir
+/root/AGV/build/bumperbot_mapping/CMakeFiles/edit_cache.dir
+/root/AGV/build/bumperbot_mapping/CMakeFiles/rebuild_cache.dir
+/root/AGV/build/bumperbot_mapping/CMakeFiles/list_install_components.dir
+/root/AGV/build/bumperbot_mapping/CMakeFiles/install.dir
+/root/AGV/build/bumperbot_mapping/CMakeFiles/install/local.dir
+/root/AGV/build/bumperbot_mapping/CMakeFiles/install/strip.dir

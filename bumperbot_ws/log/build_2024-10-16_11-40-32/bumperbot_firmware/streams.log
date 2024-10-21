@@ -1,0 +1,145 @@
+[0.045s] Invoking command in '/root/AGV/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/AGV/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/root/AGV/bumperbot_ws/install/bumperbot_firmware
+[0.414s] -- The C compiler identification is GNU 11.4.0
+[0.692s] -- The CXX compiler identification is GNU 11.4.0
+[0.987s] -- Detecting C compiler ABI info
+[1.158s] -- Detecting C compiler ABI info - done
+[1.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.173s] -- Detecting C compile features
+[1.173s] -- Detecting C compile features - done
+[1.180s] -- Detecting CXX compiler ABI info
+[1.399s] -- Detecting CXX compiler ABI info - done
+[1.407s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.407s] -- Detecting CXX compile features
+[1.408s] -- Detecting CXX compile features - done
+[1.412s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.690s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.817s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.818s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.972s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.978s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.985s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.998s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.021s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.084s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.088s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.550s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.022s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.657s] -- Looking for pthread.h
+[3.776s] -- Looking for pthread.h - found
+[3.777s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.888s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.890s] -- Found Threads: TRUE  
+[3.945s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.949s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[4.913s] -- Checking for module 'libserial'
+[4.931s] --   Found libserial, version 1.0.0
+[5.088s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.181s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.181s] -- Configured cppcheck include dirs: /root/AGV/bumperbot_ws/src/bumperbot_firmware/include;/root/AGV/bumperbot_ws/src/bumperbot_firmware/
+[5.181s] -- Configured cppcheck exclude dirs and/or files: 
+[5.182s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.183s] -- Added test 'lint_cmake' to check CMake code style
+[5.184s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.185s] -- Added test 'uncrustify' to check C / C++ code style
+[5.185s] -- Configured uncrustify additional arguments: 
+[5.186s] -- Added test 'xmllint' to check XML markup files
+[5.194s] -- Configuring done
+[5.230s] -- Generating done
+[5.232s] -- Build files have been written to: /root/AGV/bumperbot_ws/build/bumperbot_firmware
+[5.254s] Invoked command in '/root/AGV/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/AGV/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/root/AGV/bumperbot_ws/install/bumperbot_firmware
+[5.256s] Invoking command in '/root/AGV/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/bumperbot_ws/build/bumperbot_firmware -- -j8 -l8
+[5.304s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[5.306s] [ 33%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[5.308s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[5.315s] [ 50%] Built target ament_cmake_python_copy_bumperbot_firmware
+[5.691s] running egg_info
+[5.692s] creating bumperbot_firmware.egg-info
+[5.693s] writing bumperbot_firmware.egg-info/PKG-INFO
+[5.694s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[5.694s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[5.695s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[5.697s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[5.698s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[5.758s] [ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[13.364s] [01m[K/root/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:[m[K In member function ‘[01m[Kvirtual bumperbot_interface::CallbackReturn bumperbot_interface::BumperbotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[13.397s] [01m[K/root/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:80:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.397s]    80 |     CallbackReturn BumperbotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+[13.397s]       |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[13.397s] [01m[K/root/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:[m[K In member function ‘[01m[Kvirtual bumperbot_interface::CallbackReturn bumperbot_interface::BumperbotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[13.397s] [01m[K/root/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:105:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.397s]   105 |     CallbackReturn BumperbotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K){
+[13.397s]       |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[13.398s] [01m[K/root/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type bumperbot_interface::BumperbotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[13.398s] [01m[K/root/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:126:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.398s]   126 |     hardware_interface::return_type BumperbotInterface::read([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period){
+[13.401s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[13.402s] [01m[K/root/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:126:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.402s]   126 |     hardware_interface::return_type BumperbotInterface::read(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K){
+[13.402s]       |                                                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[13.402s] [01m[K/root/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type bumperbot_interface::BumperbotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[13.409s] [01m[K/root/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:157:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.410s]   157 |     hardware_interface::return_type BumperbotInterface::write([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period){
+[13.410s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[13.412s] [01m[K/root/AGV/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:157:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.412s]   157 |     hardware_interface::return_type BumperbotInterface::write(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K){
+[13.412s]       |                                                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[19.215s] [ 66%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[20.484s] [ 66%] Built target bumperbot_firmware
+[21.617s] [ 83%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[22.046s] [ 83%] Built target simple_serial_receiver
+[32.035s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[32.755s] [100%] Built target simple_serial_transmitter
+[32.784s] Invoked command in '/root/AGV/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/bumperbot_ws/build/bumperbot_firmware -- -j8 -l8
+[32.820s] Invoking command in '/root/AGV/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/AGV/bumperbot_ws/build/bumperbot_firmware
+[32.829s] -- Install configuration: ""
+[32.829s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[32.830s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[32.830s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[32.832s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[32.832s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[32.832s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[32.833s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[32.833s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+[32.834s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[32.834s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[32.834s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[32.879s] Listing '/root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[32.880s] Compiling '/root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py'...
+[32.880s] Compiling '/root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py'...
+[32.880s] Compiling '/root/AGV/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py'...
+[32.888s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[32.889s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[32.892s] -- Set runtime path of "/root/AGV/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""
+[32.892s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/include/include
+[32.892s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_interface.hpp
+[32.893s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[32.898s] -- Set runtime path of "/root/AGV/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+[32.898s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[32.904s] -- Set runtime path of "/root/AGV/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver" to ""
+[32.904s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[32.905s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[32.905s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[32.905s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[32.906s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[32.906s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[32.908s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[32.908s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[32.909s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[32.909s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[32.909s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[32.909s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[32.910s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[32.910s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[32.910s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[32.910s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[32.911s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[32.912s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[32.913s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[32.914s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.914s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[32.915s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.915s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[32.915s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[32.915s] -- Installing: /root/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[32.918s] Invoked command in '/root/AGV/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/AGV/bumperbot_ws/build/bumperbot_firmware

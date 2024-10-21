@@ -1,0 +1,59 @@
+[0.056s] Invoking command in '/root/AGV/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/build/bumperbot_firmware -- -j8 -l8
+[0.551s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.551s] [ 50%] Built target simple_serial_receiver
+[0.551s] [ 66%] Built target simple_serial_transmitter
+[0.551s] [100%] Built target bumperbot_firmware
+[0.598s] running egg_info
+[0.600s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.604s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.604s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[0.619s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.620s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.903s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[0.904s] Invoked command in '/root/AGV/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/build/bumperbot_firmware -- -j8 -l8
+[0.919s] Invoking command in '/root/AGV/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/AGV/build/bumperbot_firmware
+[0.926s] -- Install configuration: ""
+[0.928s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[0.930s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[0.931s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[0.931s] -- Installing: /root/AGV/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[0.931s] -- Installing: /root/AGV/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[0.931s] -- Installing: /root/AGV/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.931s] -- Installing: /root/AGV/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.931s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+[0.931s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[0.931s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[0.931s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[0.964s] Listing '/root/AGV/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[0.973s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[0.975s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[0.975s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/include/include
+[0.976s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/include/include/bumperbot_interface.hpp
+[0.977s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[0.978s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[0.979s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[0.979s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[0.979s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[0.979s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[0.980s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[0.980s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[0.980s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[0.981s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[0.981s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[0.981s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[0.981s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[0.981s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[0.981s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[0.981s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[0.981s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[0.981s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[0.981s] -- Installing: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[0.982s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[0.982s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[0.982s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.982s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[0.982s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.982s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[0.982s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[0.983s] -- Up-to-date: /root/AGV/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[0.987s] Invoked command in '/root/AGV/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/AGV/build/bumperbot_firmware
