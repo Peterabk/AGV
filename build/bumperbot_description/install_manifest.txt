@@ -5,8 +5,8 @@
 /root/AGV/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
 /root/AGV/install/bumperbot_description/share/bumperbot_description/meshes/laser_link.STL
 /root/AGV/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
-/root/AGV/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.gazebo.xacro
 /root/AGV/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+/root/AGV/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
 /root/AGV/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
 /root/AGV/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
 /root/AGV/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
