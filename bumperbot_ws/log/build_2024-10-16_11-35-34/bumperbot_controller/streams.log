@@ -1,6 +1,0 @@
-[0.043s] Invoking command in '/root/AGV/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
-[0.274s] [0mCMake Error: The current CMakeCache.txt directory /root/AGV/bumperbot_ws/build/bumperbot_controller/CMakeCache.txt is different than the directory /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.274s] [0mCMake Error: The source directory "/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller" does not exist.
-[0.275s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.275s] gmake: *** [Makefile:295: cmake_check_build_system] Error 1
-[0.292s] Invoked command in '/root/AGV/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/AGV/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
