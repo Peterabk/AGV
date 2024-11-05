@@ -1,0 +1,8 @@
+joystick:
+  ros__parameters:
+    #device_id: 2
+    #device_name: Sony Corp."
+    deadzon: 0.5
+    autorepeat_rate: 20.0 #hz
+    sticky_buttons: false
+    coalesce_interval_ms: 1 #ms
