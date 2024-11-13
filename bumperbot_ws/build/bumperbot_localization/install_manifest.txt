@@ -10,8 +10,12 @@
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/gps_waypoint_follower.launch.py
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
+/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/dual_ekf_navsat.launch.py
+/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/dual_ekf_navsat_params.yaml
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/nav2_no_map_params.yaml
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization

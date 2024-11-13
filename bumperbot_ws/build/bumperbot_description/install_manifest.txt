@@ -829,6 +829,7 @@
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_collision.DAE
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_visual.DAE:Zone.Identifier
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_collision.DAE:Zone.Identifier
+/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/worlds/sonoma_raceway.world
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/worlds/willowgarage.world
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/worlds/small_house.world
 /home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/worlds/willowgarage.world:Zone.Identifier
