@@ -1,28 +1,29 @@
 {
-  "configurations": [
-    {
-      "browse": {
-        "databaseFilename": "${default}",
-        "limitSymbolsToIncludedHeaders": false
-      },
-      "includePath": [
-        "/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/include/**",
-        "/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/include/**",
-        "/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/include/**",
-        "/opt/ros/humble/include/**",
-        "/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller/include/**",
-        "/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/include/**",
-        "/home/wapush/AGV/bumperbot_ws/src/bumperbot_localization/include/**",
-        "/home/wapush/AGV/bumperbot_ws/src/bumperbot_mapping/include/**",
-        "/home/wapush/AGV/bumperbot_ws/src/bumperbot_utils/include/**",
-        "/usr/include/**"
-      ],
-      "name": "ROS",
-      "intelliSenseMode": "gcc-x64",
-      "compilerPath": "/usr/bin/gcc",
-      "cStandard": "gnu11",
-      "cppStandard": "c++14"
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/include/**",
+                "/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/include/**",
+                "/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller/include/**",
+                "/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware/include/**",
+                "/home/wapush/AGV/bumperbot_ws/src/bumperbot_localization/include/**",
+                "/home/wapush/AGV/bumperbot_ws/src/bumperbot_mapping/include/**",
+                "/home/wapush/AGV/bumperbot_ws/src/bumperbot_utils/include/**",
+                "/usr/include/**",
+                "/opt/ros/humble/include/rclcpp"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
 }

@@ -115,14 +115,6 @@
 
     <gazebo reference="gps_link">
 
-      <spherical_coordinates>
-        <surface_model>EARTH_WGS84</surface_model>
-        <latitude_deg>38.161479</latitude_deg>
-        <longitude_deg>-122.454630</longitude_deg>
-        <elevation>488.0</elevation>
-        <heading_deg>180</heading_deg>
-      </spherical_coordinates>
-
       <sensor name="tb3_gps" type="gps">
         <always_on>true</always_on>
         <update_rate>1</update_rate>

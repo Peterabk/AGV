@@ -121,6 +121,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_controller" TYPE PROGRAM FILES
     "/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller/bumperbot_controller/simple_speed_controller.py"
     "/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller/bumperbot_controller/noisy_controller.py"
+    "/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller/bumperbot_controller/gps_waypoint_logger.py"
+    "/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller/bumperbot_controller/logged_waypoint_follower.py"
+    "/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller/bumperbot_controller/trajectory_plotter.py"
     )
 endif()
 

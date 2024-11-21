@@ -1,0 +1,26 @@
+[0.044s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping -- -j20 -l20
+[0.413s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping -- -j20 -l20
+[0.440s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping
+[0.463s] -- Install configuration: ""
+[0.465s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[0.465s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[0.465s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm:Zone.Identifier
+[0.465s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml:Zone.Identifier
+[0.467s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[0.467s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[0.470s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[0.470s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[0.470s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[0.471s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[0.472s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[0.472s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[0.472s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[0.473s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[0.474s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[0.474s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[0.474s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[0.475s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[0.476s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[0.477s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[0.478s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[0.808s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping
