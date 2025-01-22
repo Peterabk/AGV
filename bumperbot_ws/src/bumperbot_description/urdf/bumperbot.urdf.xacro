@@ -1,9 +1,7 @@
-<?xml version="1.0"?>
-
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="bumperbot">
     
     <xacro:arg name="is_sim" default="true"/>
-    <xacro:include filename="$(find bumperbot_description)/urdf/bumperbot.gazebo.xacro"/>
+    <xacro:include filename="$(find bumperbot_description)/urdf/bumperbot_gazebo.xacro"/>
     <xacro:include filename="$(find bumperbot_description)/urdf/bumperbot_ros2_control.xacro"/>
 
     <link name="base_footprint">
@@ -133,6 +131,66 @@
         </collision>
     </link>
 
+    <link name="imu_link">
+
+        <inertial>
+            <origin xyz="-0.00552433659106688 0.000168210391520346 0.000514000497342681" rpy="0 0 0" />
+            <mass value="0.000528415362211671" />
+            <inertia ixx="1.46176048428261E-08" ixy="1.40015117949421E-10" ixz="-1.99633872937403E-12"
+                     iyy="8.59662482954888E-09" iyz="7.52375112767959E-12"
+                     izz="2.30279421279312E-08" />
+        </inertial>
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://bumperbot_description/meshes/imu_link.STL"/>
+            </geometry>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://bumperbot_description/meshes/imu_link.STL"/>
+            </geometry>
+        </collision>
+
+    </link>
+
+    <link name="laser_link">
+
+        <inertial>
+            <origin xyz="-0.011945780406062 -0.000381929217680526 -0.0170649378129477" rpy="0 0 0" />
+            <mass value="0.073084435549317" />
+            <inertia ixx="1.96074931730795E-05" ixy="-3.62091076640009E-07" ixz="4.28230084046735E-07"
+                     iyy="2.40983835136327E-05" iyz="1.50180909250652E-08"
+                     izz="4.14184164228595E-05" />
+        </inertial>
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://bumperbot_description/meshes/laser_link.STL"/>
+            </geometry>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://bumperbot_description/meshes/laser_link.STL"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="gps_link"/>
+
+    <!-- Add the gps link so we get a static transform for the GPS -->
+    <joint name="gps_joint" type="fixed">
+      <parent link="base_link"/>
+      <child link="gps_link"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
     <joint name="base_joint" type="fixed">
         <parent link="base_footprint"/>
         <child link="base_link"/>
@@ -163,5 +221,18 @@
         <parent link="base_link"/>
         <child link="caster_rear_link"/>
         <origin rpy="0 0 0" xyz="-0.04755 0 -0.0275"/>
+    </joint>
+
+    <joint name="imu_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="imu_link"/>
+        <origin xyz="0 0 0.7" rpy="0 0 0"/>
+        <axis xyz="0 0 0"/>
+    </joint>
+
+    <joint name="laser_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="laser_link"/>
+        <origin rpy="0 0 3.14" xyz="0.0 0.0 0.1208"/>
     </joint>
 </robot>

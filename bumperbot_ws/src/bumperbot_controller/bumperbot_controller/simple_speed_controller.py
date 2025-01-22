@@ -3,7 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray
-from geometry_msgs.msg import TwistStamped, TransformStamped
+from geometry_msgs.msg import Twist, TransformStamped
 from sensor_msgs.msg import JointState
 from nav_msgs.msg import Odometry
 from rclpy.time import Time
@@ -41,7 +41,7 @@ class SimpleSpeedController(Node):
         self.previous_time = self.get_clock().now()
 
         self.wheel_cmd_pub = self.create_publisher(Float64MultiArray,"simple_velocity_controller/commands",10)
-        self.vel_sub = self.create_subscription(TwistStamped,"bumperbot_controller/cmd_vel", self.velCallback, 10)
+        self.vel_sub = self.create_subscription(Twist,"bumperbot_controller/cmd_vel", self.velCallback, 10)
 
         #subscribe to get the state of the positoins
         self.joint_sub = self.create_subscription(JointState, "joint_states", self.jointCallBack, 10)
@@ -73,8 +73,8 @@ class SimpleSpeedController(Node):
         self.get_logger().info("The conversion Matrix is: %s" %self.speed_conversion)
 
     def velCallback(self,msg):
-        robot_speed = np.array([[msg.twist.linear.x],
-                                [msg.twist.angular.z]])
+        robot_speed = np.array([[msg.linear.x],
+                                [msg.angular.z]])
         wheel_speed = np.matmul(np.linalg.inv(self.speed_conversion), robot_speed)
         wheel_speed_msg = Float64MultiArray()
         wheel_speed_msg.data = [wheel_speed[1,0], wheel_speed[0,0]]

@@ -1,0 +1,11 @@
+joystick_relay:
+  ros__parameters:
+    priority: true
+    turbo:
+      linear_forward_min: 0.2 # m/s
+      linear_forward_max: 0.7 # m/s
+      linear_backward_min: 0.2 # m/s
+      linear_backward_max: 0.7 # m/s
+      angular_min: 0.7 # rad/s
+      angular_max: 5.0
+      steps: 3 # steps taken to get from min vel to max vel
