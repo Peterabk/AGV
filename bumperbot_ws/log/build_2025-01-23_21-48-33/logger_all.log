@@ -1,0 +1,682 @@
+[0.264s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.264s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fc4f7b552d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc4f7ce2260>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc4f7ce2260>>, mixin_verb=('build',))
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.438s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wapush/AGV/bumperbot_ws'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ros'
+[0.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_controller' with type 'ros.ament_cmake' and name 'bumperbot_controller'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ros'
+[0.454s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_cpp_examples' with type 'ros.ament_cmake' and name 'bumperbot_cpp_examples'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ros'
+[0.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_description' with type 'ros.ament_cmake' and name 'bumperbot_description'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ros'
+[0.457s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_firmware' with type 'ros.ament_cmake' and name 'bumperbot_firmware'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'ros'
+[0.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_localization' with type 'ros.ament_cmake' and name 'bumperbot_localization'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_mapping) by extension 'ros'
+[0.459s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_mapping' with type 'ros.ament_cmake' and name 'bumperbot_mapping'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_py_examples' with type 'ros.ament_python' and name 'bumperbot_py_examples'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_utils) by extension 'ros'
+[0.461s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_utils' with type 'ros.ament_cmake' and name 'bumperbot_utils'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_straightline_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_straightline_planner) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_straightline_planner) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_straightline_planner) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_straightline_planner) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_straightline_planner) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_straightline_planner) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_straightline_planner) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_straightline_planner) by extension 'ros'
+[0.468s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_straightline_planner' with type 'ros.ament_cmake' and name 'nav2_straightline_planner'
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.488s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/iron
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_target' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.562s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wapush/AGV/bumperbot_ws/build/bumperbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller', 'merge_install': False, 'path': '/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.562s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wapush/AGV/bumperbot_ws/build/bumperbot_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples', 'merge_install': False, 'path': '/home/wapush/AGV/bumperbot_ws/src/bumperbot_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.562s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wapush/AGV/bumperbot_ws/build/bumperbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description', 'merge_install': False, 'path': '/home/wapush/AGV/bumperbot_ws/src/bumperbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_target' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.563s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware', 'merge_install': False, 'path': '/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_target' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.563s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wapush/AGV/bumperbot_ws/build/bumperbot_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization', 'merge_install': False, 'path': '/home/wapush/AGV/bumperbot_ws/src/bumperbot_localization', 'symlink_install': False, 'test_result_base': None}
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_target' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.563s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping', 'merge_install': False, 'path': '/home/wapush/AGV/bumperbot_ws/src/bumperbot_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.563s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples', 'merge_install': False, 'path': '/home/wapush/AGV/bumperbot_ws/src/bumperbot_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_target' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.564s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils', 'merge_install': False, 'path': '/home/wapush/AGV/bumperbot_ws/src/bumperbot_utils', 'symlink_install': False, 'test_result_base': None}
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_target' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'nav2_straightline_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.564s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_straightline_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wapush/AGV/bumperbot_ws/build/nav2_straightline_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner', 'merge_install': False, 'path': '/home/wapush/AGV/bumperbot_ws/src/nav2_straightline_planner', 'symlink_install': False, 'test_result_base': None}
+[0.564s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.565s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller' with build type 'ament_cmake'
+[0.565s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_controller'
+[0.569s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.572s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_cpp_examples' with build type 'ament_cmake'
+[0.572s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_cpp_examples'
+[0.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.574s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_description' with build type 'ament_cmake'
+[0.574s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_description'
+[0.575s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.575s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.577s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware' with build type 'ament_cmake'
+[0.577s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_firmware'
+[0.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.579s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_localization' with build type 'ament_cmake'
+[0.579s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_localization'
+[0.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.581s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_mapping' with build type 'ament_cmake'
+[0.581s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_mapping'
+[0.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.583s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_py_examples' with build type 'ament_python'
+[0.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_py_examples', 'ament_prefix_path')
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.ps1'
+[0.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.dsv'
+[0.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.sh'
+[0.585s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_utils' with build type 'ament_cmake'
+[0.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_utils'
+[0.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.589s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wapush/AGV/bumperbot_ws/src/nav2_straightline_planner' with build type 'ament_cmake'
+[0.589s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wapush/AGV/bumperbot_ws/src/nav2_straightline_planner'
+[0.590s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller -- -j20 -l20
+[0.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_cpp_examples -- -j20 -l20
+[0.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_description -- -j20 -l20
+[0.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware -- -j20 -l20
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_localization -- -j20 -l20
+[0.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping -- -j20 -l20
+[0.755s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_py_examples'
+[0.755s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils -- -j20 -l20
+[0.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/nav2_straightline_planner -- -j20 -l20
+[0.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping -- -j20 -l20
+[0.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping
+[0.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_description -- -j20 -l20
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_description
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_cpp_examples -- -j20 -l20
+[0.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_cpp_examples
+[0.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_mapping)
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping' for CMake module files
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping' for CMake config files
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping
+[0.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_mapping', 'cmake_prefix_path')
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.dsv'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.sh'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/bin'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/lib/pkgconfig/bumperbot_mapping.pc'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/lib/python3.10/site-packages'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/bin'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.ps1'
+[0.848s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.sh'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.bash'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.zsh'
+[0.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/colcon-core/packages/bumperbot_mapping)
+[0.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_mapping)
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping' for CMake module files
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping' for CMake config files
+[0.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_mapping', 'cmake_prefix_path')
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.ps1'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.dsv'
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/hook/cmake_prefix_path.sh'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/bin'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/lib/pkgconfig/bumperbot_mapping.pc'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/lib/python3.10/site-packages'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/bin'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.ps1'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.sh'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.bash'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.zsh'
+[0.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/colcon-core/packages/bumperbot_mapping)
+[0.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_cpp_examples)
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples' for CMake module files
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples' for CMake config files
+[0.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_cpp_examples', 'cmake_prefix_path')
+[0.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.ps1'
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.dsv'
+[0.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.sh'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/lib/pkgconfig/bumperbot_cpp_examples.pc'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/lib/python3.10/site-packages'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.sh'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.bash'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.zsh'
+[0.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/colcon-core/packages/bumperbot_cpp_examples)
+[0.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_cpp_examples)
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples' for CMake module files
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples' for CMake config files
+[0.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_cpp_examples', 'cmake_prefix_path')
+[0.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.ps1'
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.dsv'
+[0.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.sh'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/lib/pkgconfig/bumperbot_cpp_examples.pc'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/lib/python3.10/site-packages'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv'
+[0.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_cpp_examples
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.sh'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.bash'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.zsh'
+[0.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_cpp_examples/share/colcon-core/packages/bumperbot_cpp_examples)
+[0.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/nav2_straightline_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/nav2_straightline_planner -- -j20 -l20
+[0.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/nav2_straightline_planner
+[0.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller -- -j20 -l20
+[0.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller
+[0.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware -- -j20 -l20
+[0.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware
+[0.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_localization -- -j20 -l20
+[0.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_localization
+[0.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[0.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_description
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description' for CMake module files
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description' for CMake config files
+[0.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/bin'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/lib/python3.10/site-packages'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/bin'
+[0.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[0.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.sh'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.bash'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[0.999s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[1.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description' for CMake module files
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description' for CMake config files
+[1.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/bin'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/lib/python3.10/site-packages'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/bin'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.sh'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.bash'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[1.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[1.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_straightline_planner)
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner' for CMake module files
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner' for CMake config files
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/nav2_straightline_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/nav2_straightline_planner
+[1.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_straightline_planner', 'cmake_prefix_path')
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/cmake_prefix_path.ps1'
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/cmake_prefix_path.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/cmake_prefix_path.sh'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/lib'
+[1.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_straightline_planner', 'ld_library_path_lib')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/ld_library_path_lib.ps1'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/ld_library_path_lib.dsv'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/ld_library_path_lib.sh'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/bin'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/lib/pkgconfig/nav2_straightline_planner.pc'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/lib/python3.10/site-packages'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/bin'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.dsv'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.sh'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.bash'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.zsh'
+[1.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/colcon-core/packages/nav2_straightline_planner)
+[1.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_straightline_planner)
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner' for CMake module files
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner' for CMake config files
+[1.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_straightline_planner', 'cmake_prefix_path')
+[1.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/cmake_prefix_path.ps1'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/cmake_prefix_path.dsv'
+[1.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/cmake_prefix_path.sh'
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/lib'
+[1.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_straightline_planner', 'ld_library_path_lib')
+[1.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/ld_library_path_lib.ps1'
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/ld_library_path_lib.dsv'
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/hook/ld_library_path_lib.sh'
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/bin'
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/lib/pkgconfig/nav2_straightline_planner.pc'
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/lib/python3.10/site-packages'
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/bin'
+[1.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.ps1'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.dsv'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.sh'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.bash'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.zsh'
+[1.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/nav2_straightline_planner/share/colcon-core/packages/nav2_straightline_planner)
+[1.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils -- -j20 -l20
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils
+[1.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_firmware)
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware' for CMake module files
+[1.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware' for CMake config files
+[1.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'cmake_prefix_path')
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.sh'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib'
+[1.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'ld_library_path_lib')
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.ps1'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.sh'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/bin'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/pkgconfig/bumperbot_firmware.pc'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages'
+[1.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'pythonpath')
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.ps1'
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.dsv'
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.sh'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/bin'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.sh'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.bash'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.zsh'
+[1.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/colcon-core/packages/bumperbot_firmware)
+[1.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_firmware)
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware' for CMake module files
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware' for CMake config files
+[1.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'cmake_prefix_path')
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.ps1'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.sh'
+[1.050s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib'
+[1.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'ld_library_path_lib')
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.ps1'
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.dsv'
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.sh'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/bin'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/pkgconfig/bumperbot_firmware.pc'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages'
+[1.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'pythonpath')
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.ps1'
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/pythonpath.sh'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/bin'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.sh'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.bash'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.zsh'
+[1.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/colcon-core/packages/bumperbot_firmware)
+[1.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_controller)
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller' for CMake module files
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller' for CMake config files
+[1.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller
+[1.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'cmake_prefix_path')
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.ps1'
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.dsv'
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.sh'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/bin'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/pkgconfig/bumperbot_controller.pc'
+[1.058s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages'
+[1.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'pythonpath')
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.ps1'
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.dsv'
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.sh'
+[1.058s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/bin'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.ps1'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.sh'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.bash'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.zsh'
+[1.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/colcon-core/packages/bumperbot_controller)
+[1.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_controller)
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller' for CMake module files
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller' for CMake config files
+[1.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'cmake_prefix_path')
+[1.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.dsv'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.sh'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/bin'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/pkgconfig/bumperbot_controller.pc'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages'
+[1.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'pythonpath')
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.ps1'
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.dsv'
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/pythonpath.sh'
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/bin'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.ps1'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.sh'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.bash'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.zsh'
+[1.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/colcon-core/packages/bumperbot_controller)
+[1.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_localization)
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization' for CMake module files
+[1.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_localization
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization' for CMake config files
+[1.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_localization', 'cmake_prefix_path')
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.ps1'
+[1.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.dsv'
+[1.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.sh'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/lib'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/bin'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/lib/pkgconfig/bumperbot_localization.pc'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/lib/python3.10/site-packages'
+[1.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_localization', 'pythonpath')
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.ps1'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.dsv'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.sh'
+[1.070s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/bin'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.ps1'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.sh'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.bash'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.zsh'
+[1.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/colcon-core/packages/bumperbot_localization)
+[1.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_localization)
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization' for CMake module files
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization' for CMake config files
+[1.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_localization', 'cmake_prefix_path')
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.dsv'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.sh'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/lib'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/bin'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/lib/pkgconfig/bumperbot_localization.pc'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/lib/python3.10/site-packages'
+[1.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_localization', 'pythonpath')
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/pythonpath.sh'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/bin'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.ps1'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.sh'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.bash'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.zsh'
+[1.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_localization/share/colcon-core/packages/bumperbot_localization)
+[1.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_utils)
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils' for CMake module files
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils' for CMake config files
+[1.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_utils', 'cmake_prefix_path')
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.ps1'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.dsv'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.sh'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/bin'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/pkgconfig/bumperbot_utils.pc'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages'
+[1.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_utils', 'pythonpath')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/bin'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.sh'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.bash'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.zsh'
+[1.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/colcon-core/packages/bumperbot_utils)
+[1.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_utils)
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils' for CMake module files
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils' for CMake config files
+[1.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_utils', 'cmake_prefix_path')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/cmake_prefix_path.sh'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/bin'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/pkgconfig/bumperbot_utils.pc'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages'
+[1.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_utils', 'pythonpath')
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/hook/pythonpath.sh'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/bin'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.ps1'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.sh'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.bash'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.zsh'
+[1.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/colcon-core/packages/bumperbot_utils)
+[1.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_py_examples': PYTHONPATH=/home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples' for CMake module files
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wapush/AGV/bumperbot_ws/src/bumperbot_py_examples' returned '0': PYTHONPATH=/home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/wapush/AGV/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples' for CMake config files
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/bin'
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/pkgconfig/bumperbot_py_examples.pc'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages'
+[1.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_py_examples', 'pythonpath')
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/pythonpath.ps1'
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/pythonpath.dsv'
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/pythonpath.sh'
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/bin'
+[1.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_py_examples)
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.dsv'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.sh'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.bash'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.zsh'
+[1.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples/share/colcon-core/packages/bumperbot_py_examples)
+[1.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.323s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.406s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.407s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.407s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.407s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.407s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[1.407s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wapush/AGV/bumperbot_ws/install/local_setup.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wapush/AGV/bumperbot_ws/install/_local_setup_util_ps1.py'
+[1.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wapush/AGV/bumperbot_ws/install/setup.ps1'
+[1.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wapush/AGV/bumperbot_ws/install/local_setup.sh'
+[1.411s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wapush/AGV/bumperbot_ws/install/_local_setup_util_sh.py'
+[1.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wapush/AGV/bumperbot_ws/install/setup.sh'
+[1.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wapush/AGV/bumperbot_ws/install/local_setup.bash'
+[1.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wapush/AGV/bumperbot_ws/install/setup.bash'
+[1.413s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wapush/AGV/bumperbot_ws/install/local_setup.zsh'
+[1.413s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wapush/AGV/bumperbot_ws/install/setup.zsh'

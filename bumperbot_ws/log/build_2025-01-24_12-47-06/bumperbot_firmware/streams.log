@@ -1,0 +1,64 @@
+[0.042s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware -- -j20 -l20
+[0.281s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_receiver[0m
+[0.281s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.282s] [ 66%] Built target simple_serial_transmitter
+[0.283s] [ 66%] Built target bumperbot_firmware
+[0.283s] [ 83%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[0.366s] running egg_info
+[0.366s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.368s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.368s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[0.378s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.378s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.424s] [ 83%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[4.877s] [100%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[5.169s] [100%] Built target simple_serial_receiver
+[5.182s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware -- -j20 -l20
+[5.188s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware
+[5.192s] -- Install configuration: ""
+[5.192s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[5.192s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[5.192s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[5.192s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[5.193s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[5.193s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.193s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.193s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages/bumperbot_firmware
+[5.193s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages/bumperbot_firmware/simple_serial_transmitter.py
+[5.193s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages/bumperbot_firmware/simple_serial_receiver.py
+[5.193s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages/bumperbot_firmware/__init__.py
+[5.222s] Listing '/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages/bumperbot_firmware'...
+[5.226s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[5.241s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[5.242s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/include/include
+[5.242s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_interface.hpp
+[5.242s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+[5.245s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[5.248s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[5.278s] -- Set runtime path of "/home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver" to ""
+[5.278s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[5.278s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[5.278s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[5.279s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[5.279s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[5.279s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[5.279s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[5.279s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[5.279s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[5.279s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[5.279s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[5.279s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[5.280s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[5.280s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[5.280s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[5.280s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[5.280s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[5.280s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[5.280s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[5.280s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.280s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[5.281s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.281s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[5.281s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[5.281s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[5.283s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_firmware

@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'simple_turtulesim_kinematics = bumperbot_py_examples.turtlesim_kinematics:main'
+            'imu_publisher = bumperbot_py_examples.imu_publisher:main'
         ],
     },
 )

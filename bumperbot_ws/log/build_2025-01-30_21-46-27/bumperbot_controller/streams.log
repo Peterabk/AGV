@@ -1,0 +1,77 @@
+[0.052s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller -- -j20 -l20
+[0.301s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.303s] [ 25%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[0.304s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_speed_controller.dir/src/simple_speed_controller.cpp.o[0m
+[0.421s] running egg_info
+[0.424s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.427s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.428s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.434s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.440s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.520s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[26.262s] [ 75%] [32m[1mLinking CXX executable noisy_controller[0m
+[26.732s] [ 75%] Built target noisy_controller
+[31.793s] [100%] [32m[1mLinking CXX executable simple_speed_controller[0m
+[32.435s] [100%] Built target simple_speed_controller
+[32.449s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller -- -j20 -l20
+[32.451s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller
+[32.456s] -- Install configuration: ""
+[32.457s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[32.457s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[32.457s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[32.457s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[32.457s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[32.457s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[32.458s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[32.458s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller
+[32.458s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller/noisy_controller.py
+[32.458s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller/simple_speed_controller.py
+[32.458s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller/gps_waypoint_logger.py
+[32.458s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller/utils
+[32.459s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller/utils/gps_utils.py
+[32.459s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller/utils/__init__.py
+[32.459s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller/trajectory_plotter.py
+[32.459s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller/logged_waypoint_follower.py
+[32.459s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller/__init__.py
+[32.486s] Listing '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller'...
+[32.486s] Listing '/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages/bumperbot_controller/utils'...
+[32.489s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/include/include
+[32.489s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[32.489s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[32.489s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_speed_controller.hpp
+[32.490s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_speed_controller
+[32.495s] -- Set runtime path of "/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_speed_controller" to ""
+[32.496s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[32.500s] -- Set runtime path of "/home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller" to ""
+[32.500s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[32.500s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[32.500s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[32.500s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[32.500s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/waypoints.yaml
+[32.500s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[32.501s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[32.501s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[32.501s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[32.501s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[32.501s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[32.501s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_speed_controller.py
+[32.501s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[32.501s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/gps_waypoint_logger.py
+[32.502s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/logged_waypoint_follower.py
+[32.502s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/trajectory_plotter.py
+[32.502s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[32.502s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[32.502s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[32.502s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[32.502s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[32.502s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[32.502s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[32.502s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[32.503s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[32.503s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[32.503s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[32.503s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[32.503s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[32.503s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[32.503s] -- Up-to-date: /home/wapush/AGV/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[32.505s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wapush/AGV/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_controller

@@ -1,0 +1,94 @@
+[0.180s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake /home/wapush/AGV/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils
+[0.353s] -- The C compiler identification is GNU 11.4.0
+[1.452s] -- The CXX compiler identification is GNU 11.4.0
+[2.144s] -- Detecting C compiler ABI info
+[2.302s] -- Detecting C compiler ABI info - done
+[2.306s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.307s] -- Detecting C compile features
+[2.307s] -- Detecting C compile features - done
+[2.308s] -- Detecting CXX compiler ABI info
+[2.476s] -- Detecting CXX compiler ABI info - done
+[2.483s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.483s] -- Detecting CXX compile features
+[2.483s] -- Detecting CXX compile features - done
+[2.486s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.600s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.678s] -- Found rclpy: 4.1.7 (/opt/ros/iron/share/rclpy/cmake)
+[2.678s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[2.907s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.914s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.933s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.029s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.031s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[4.926s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.376s] -- Found FastRTPS: /opt/ros/iron/include  
+[11.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.724s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[11.743s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[11.870s] -- Found twist_mux_msgs: 3.0.1 (/opt/ros/iron/share/twist_mux_msgs/cmake)
+[11.992s] -- Found visualization_msgs: 5.0.1 (/opt/ros/iron/share/visualization_msgs/cmake)
+[12.160s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[12.218s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.218s] -- Configured cppcheck include dirs: 
+[12.218s] -- Configured cppcheck exclude dirs and/or files: 
+[12.218s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.218s] -- Configured 'flake8' exclude dirs and/or files: 
+[12.219s] -- Added test 'lint_cmake' to check CMake code style
+[12.220s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.221s] -- Added test 'uncrustify' to check C / C++ code style
+[12.221s] -- Configured uncrustify additional arguments: 
+[12.221s] -- Added test 'xmllint' to check XML markup files
+[12.223s] -- Configuring done
+[12.236s] -- Generating done
+[12.241s] -- Build files have been written to: /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils
+[12.254s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake /home/wapush/AGV/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils
+[12.254s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils -- -j20 -l20
+[12.288s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o[0m
+[12.300s] [ 50%] Built target ament_cmake_python_copy_bumperbot_utils
+[12.538s] running egg_info
+[12.538s] creating bumperbot_utils.egg-info
+[12.539s] writing bumperbot_utils.egg-info/PKG-INFO
+[12.539s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[12.539s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[12.539s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[12.541s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[12.541s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[12.570s] [ 50%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[18.362s] [100%] [32m[1mLinking CXX executable safety_stop[0m
+[18.670s] [100%] Built target safety_stop
+[18.676s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils -- -j20 -l20
+[18.677s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils
+[18.681s] -- Install configuration: ""
+[18.682s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[18.684s] -- Set runtime path of "/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop" to ""
+[18.684s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[18.684s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[18.684s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+[18.685s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[18.685s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[18.685s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.685s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.685s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils
+[18.685s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/safety_stop.py
+[18.685s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/__init__.py
+[18.703s] Listing '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils'...
+[18.703s] Compiling '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/__init__.py'...
+[18.703s] Compiling '/home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils/safety_stop.py'...
+[18.706s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[18.706s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[18.706s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[18.706s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[18.706s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[18.706s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[18.707s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[18.707s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[18.707s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[18.707s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[18.707s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[18.707s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[18.707s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[18.707s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[18.707s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[18.707s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[18.708s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:/opt/ros/humble /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_utils

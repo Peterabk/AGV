@@ -11,6 +11,7 @@ find_package(ament_cmake_python REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(PkgConfig REQUIRED)
 
 find_package(hardware_interface REQUIRED)
@@ -53,6 +54,12 @@ ament_target_dependencies(simple_serial_receiver rclcpp std_msgs)
 target_include_directories(simple_serial_receiver PUBLIC "${SERIAL_INCLUDE_DIRS}")
 target_link_libraries(simple_serial_receiver "${SERIAL_LDFLAGS}")
 
+#for single exectuable
+add_executable(imu_serial_receiver src/imu_serial_receiver.cpp)
+ament_target_dependencies(imu_serial_receiver rclcpp sensor_msgs)
+target_include_directories(imu_serial_receiver PUBLIC "${SERIAL_INCLUDE_DIRS}")
+target_link_libraries(imu_serial_receiver "${SERIAL_LDFLAGS}")
+
 pluginlib_export_plugin_description_file(hardware_interface bumperbot_interface.xml)
 
 install(
@@ -68,6 +75,7 @@ install(
 install(TARGETS
   simple_serial_transmitter
   simple_serial_receiver
+  imu_serial_receiver
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION lib
