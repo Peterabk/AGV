@@ -1,0 +1,48 @@
+[0.035s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/wapush/AGV/bumperbot_ws/src/bumperbot_mapping -DCMAKE_INSTALL_PREFIX=/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping
+[0.283s] -- The C compiler identification is GNU 11.4.0
+[0.912s] -- The CXX compiler identification is GNU 11.4.0
+[2.017s] -- Detecting C compiler ABI info
+[2.227s] -- Detecting C compiler ABI info - done
+[2.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.236s] -- Detecting C compile features
+[2.236s] -- Detecting C compile features - done
+[2.240s] -- Detecting CXX compiler ABI info
+[2.481s] -- Detecting CXX compiler ABI info - done
+[2.493s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.493s] -- Detecting CXX compile features
+[2.494s] -- Detecting CXX compile features - done
+[2.497s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.672s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.768s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.840s] -- Added test 'lint_cmake' to check CMake code style
+[2.841s] -- Added test 'xmllint' to check XML markup files
+[2.842s] -- Configuring done
+[2.844s] -- Generating done
+[2.846s] -- Build files have been written to: /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping
+[2.850s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/wapush/AGV/bumperbot_ws/src/bumperbot_mapping -DCMAKE_INSTALL_PREFIX=/home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping
+[2.852s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping -- -j20 -l20
+[2.881s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping -- -j20 -l20
+[2.883s] Invoking command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping
+[2.888s] -- Install configuration: ""
+[2.888s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[2.889s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[2.890s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm:Zone.Identifier
+[2.890s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml:Zone.Identifier
+[2.890s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[2.890s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[2.893s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[2.893s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[2.893s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[2.893s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[2.893s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[2.893s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[2.894s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[2.895s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[2.895s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[2.895s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[2.896s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[2.896s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[2.897s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[2.897s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[2.897s] -- Installing: /home/wapush/AGV/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[2.898s] Invoked command in '/home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/wapush/AGV/bumperbot_ws/build/bumperbot_mapping

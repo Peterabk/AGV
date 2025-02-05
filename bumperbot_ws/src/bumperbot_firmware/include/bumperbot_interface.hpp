@@ -34,7 +34,7 @@ namespace bumperbot_interface{
             LibSerial::SerialPort arduino_;
             std::string port_;
             std::vector<double> velocity_commands_;
-            std::vector<double> positon_states_;
+            std::vector<double> position_states_;
             std::vector<double> velocity_states_;
 
             rclcpp::Time last_run_; //will contain the time of the last execution of the control loop and will allow us to calculate the psoition of the wheels knowing their velocity
