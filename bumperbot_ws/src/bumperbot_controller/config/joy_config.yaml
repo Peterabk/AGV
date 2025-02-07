@@ -1,6 +1,6 @@
 joystick:
   ros__parameters:
-    device_id: 2
+    device_id: 0
     device_name: ""
     deadzon: 0.5
     autorepeat_rate: 20.0 #hz

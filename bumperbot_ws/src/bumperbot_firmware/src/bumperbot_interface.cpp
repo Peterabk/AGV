@@ -141,7 +141,11 @@ hardware_interface::return_type BumperbotInterface::read(const rclcpp::Time &,
   {
     auto dt = (rclcpp::Clock().now() - last_run_).seconds();
     std::string message;
+
     arduino_.ReadLine(message);
+    RCLCPP_INFO_STREAM(rclcpp::get_logger("BumperbotInterface"),
+                        "Reading message "
+                            << message);
     std::stringstream ss(message);
     std::string res;
     int multiplier = 1;
@@ -197,7 +201,7 @@ hardware_interface::return_type BumperbotInterface::write(const rclcpp::Time &,
     ",l" <<  left_wheel_sign << compensate_zeros_left << std::abs(velocity_commands_.at(1)) << ",";
 
   try
-  {
+  {  
     arduino_.Write(message_stream.str());
   }
   catch (...)
